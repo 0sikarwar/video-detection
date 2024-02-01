@@ -1,6 +1,7 @@
 import argparse
 from os import path
-from time import perf_counter
+from time import perf_counter 
+from time import sleep
 
 import cv2
 import numpy as np
@@ -25,6 +26,21 @@ def video_writer_same_codec(video: cv2.VideoCapture, save_path: str) -> cv2.Vide
     codec = cv2.VideoWriter_fourcc(*"avc1")
     return cv2.VideoWriter(save_path, codec, fps, (w, h))
 
+def calculate_human_area_percentage(frame, detections):
+    """
+    Calculate the percentage of the frame area occupied by humans based on YOLO detections.
+    """
+    total_frame_area = frame.shape[0] * frame.shape[1]
+    
+    try:
+        bboxes, _, _ = np.hsplit(detections, [4, 5])
+        bboxes[:, 2:] = bboxes[:, 2:] - bboxes[:, :2]
+        human_areas = np.sum(bboxes[:, 2] * bboxes[:, 3])
+        human_area_percentage = (human_areas / total_frame_area) * 100
+    except ValueError:
+        human_area_percentage = 0.0
+    
+    return human_area_percentage
 
 def track_people(input_vid: str, save_path: str):
     """
@@ -48,13 +64,18 @@ def track_people(input_vid: str, save_path: str):
     # core processing loop
     frame_i = 0
     time_taken = 0
+
     while True:
         start = perf_counter()
 
         # read input video frame
-        ret, frame = video.read()
+        ret=""
+        frame=""
+        for i in range(0,100):
+            ret, frame = video.read()
         if not ret:
             break
+        original_frame = frame.copy() 
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
         # process YOLO detections
@@ -81,11 +102,16 @@ def track_people(input_vid: str, save_path: str):
         if cv2.waitKey(1) & 0xFF == ord("q"):
             print("<< User has terminated the process >>")
             break
+
+        # video.set(cv2.CAP_PROP_POS_FRAMES, int(video.get(cv2.CAP_PROP_POS_FRAMES) + video.get(cv2.CAP_PROP_FPS) * 10))
+
         time_taken += frame_time
         frame_i += 1
+        human_area_percentage = calculate_human_area_percentage(original_frame, detections)
         print(
             f"Frame {frame_i}: "
             f"{n_objects} people - {int(frame_time*1000)} ms = {1/frame_time:.2f} Hz"
+            f" Human Area Percentage: {human_area_percentage:.2f}%"
         )
 
     # print performance metrics
@@ -118,7 +144,9 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     args.input_vid = path.abspath(args.input_vid)
+    print(args.input_vid)
     args.save_path = path.abspath(args.save_path)
+    print(args.save_path)
     start = perf_counter()
 
     # main pipeline

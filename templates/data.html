@@ -56,25 +56,25 @@
       const objectCounts = JSON.parse(event.data);
       console.log('objectCounts', objectCounts)
       totalData.push(objectCounts);
-      if (prevPersonCount !== objectCounts['person']) {
+      if (prevPersonCount !== objectCounts['total_persons']) {
         // Update donut chart data
-        const remainingPersons = 20 - (objectCounts['person'] || 0);
-        personDonutChart.data.datasets[0].data = [remainingPersons, objectCounts['person'] || 0];
+        const remainingPersons = 20 - (objectCounts['total_persons'] || 0);
+        personDonutChart.data.datasets[0].data = [remainingPersons, objectCounts['total_persons'] || 0];
         personDonutChart.update();
       }
-      if (prevChairCount !== objectCounts['chair']) {
-        const remainingChairs = 20 - (objectCounts['chair'] || 0);
-        chairDonutChart.data.datasets[0].data = [remainingChairs, objectCounts['chair'] || 0];
+      if (prevChairCount !== objectCounts['empty_chairs']) {
+        const remainingChairs = 20 - (objectCounts['empty_chairs'] || 0);
+        chairDonutChart.data.datasets[0].data = [remainingChairs, objectCounts['empty_chairs'] || 0];
         chairDonutChart.update();
       }
 
       // Update object counts in HTML
-      if (prevPersonCount !== objectCounts['person'] || prevChairCount !== objectCounts['chair']) {
+      if (prevPersonCount !== objectCounts['total_persons'] || prevChairCount !== objectCounts['empty_chairs']) {
         const objectCountsDiv = document.getElementById("objectCounts");
         objectCountsDiv.innerHTML = "<h2>Object Counts:</h2>";
 
         for (const [className, count] of Object.entries(objectCounts)) {
-          if(["person", "chair"].includes(className)){
+          if(["total_persons", "empty_chairs"].includes(className)){
             const paragraph = document.createElement("p");
             paragraph.innerHTML = `${className}: ${count}`;
             objectCountsDiv.appendChild(paragraph);

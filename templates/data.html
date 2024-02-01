@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Detections</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    canvas {
+      width: 400px !important;
+      height: 400px !important;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Live Detections</h1>
+  <div id="objectCounts"></div>
+  <h2>Persons</h2>
+  <canvas id="presonDonutChart" width="200px" height="200px"></canvas>
+  <h2>Chairs</h2>
+  <canvas id="chairDonutChart" width="200px" height="200px"></canvas>
+
+  <script>
+    const eventSource = new EventSource("/video_feed");
+    let totalData = [];
+    let prevPersonCount = 0;
+    let prevChairCount = 0
+
+    const personCtx = document.getElementById('presonDonutChart').getContext('2d');
+    const personDonutChart = new Chart(personCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Remaining Persons', 'Detected Persons'],
+        datasets: [{
+          data: [20, 0],  // Assuming total persons is 20 initially
+          backgroundColor: ['#f0f0f0', '#3498db'], // Colors for unfilled and filled portions
+        }],
+      },
+    });
+    const chairCtx = document.getElementById('chairDonutChart').getContext('2d');
+    const chairDonutChart = new Chart(chairCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Remaining Persons', 'Detected Persons'],
+        datasets: [{
+          data: [20, 0],  // Assuming total persons is 20 initially
+          backgroundColor: ['#f0f0f0', '#3498db'], // Colors for unfilled and filled portions
+        }],
+      },
+    });
+
+    eventSource.onmessage = function (event) {
+      const objectCounts = JSON.parse(event.data);
+      totalData.push(objectCounts);
+      if (prevPersonCount !== objectCounts['person']) {
+        // Update donut chart data
+        const remainingPersons = 20 - (objectCounts['person'] || 0);
+        personDonutChart.data.datasets[0].data = [remainingPersons, objectCounts['person'] || 0];
+        personDonutChart.update();
+      }
+      if (prevChairCount !== objectCounts['chair']) {
+        const remainingChairs = 20 - (objectCounts['chair'] || 0);
+        chairDonutChart.data.datasets[0].data = [remainingChairs, objectCounts['chair'] || 0];
+        chairDonutChart.update();
+      }
+
+      // Update object counts in HTML
+      if (prevPersonCount !== objectCounts['person'] || prevChairCount !== objectCounts['chair']) {
+        const objectCountsDiv = document.getElementById("objectCounts");
+        objectCountsDiv.innerHTML = "<h2>Object Counts:</h2>";
+
+        for (const [className, count] of Object.entries(objectCounts)) {
+          if(["person", "chair"].includes(className)){
+            const paragraph = document.createElement("p");
+            paragraph.innerHTML = `${className}: ${count}`;
+            objectCountsDiv.appendChild(paragraph);
+          }
+        }
+      }
+
+    };
+
+    eventSource.onerror = function (error) {
+      console.error("EventSource failed:", error);
+      eventSource.close();
+    };
+  </script>
+</body>
+
+</html>

@@ -4,7 +4,7 @@ import cv2
 import math
 
 # Specify the path to your video file
-video_path = "./IMG_2465.MOV"
+video_path = "./IMG_2466.MOV"
 
 # Model
 model = YOLO("yolo-Weights/yolov8s.pt")
@@ -26,6 +26,10 @@ classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "trai
 cap = cv2.VideoCapture(video_path)
 cap.set(3, 640)
 cap.set(4, 480)
+
+# Variables to store information about the frame with max persons
+max_persons_frame = None
+max_persons_count = 0
 
 # Create a list to store object counts for each timestamp
 timestamp_object_counts = []
@@ -52,6 +56,9 @@ while True:
         # Create a dictionary to store object counts for the current timestamp
         current_timestamp_object_counts = {}
 
+        # Count of persons in the current frame
+        persons_count = 0
+
         # Coordinates
         for r in results:
             boxes = r.boxes
@@ -66,6 +73,10 @@ while True:
 
                 # Update object count for the current timestamp
                 current_timestamp_object_counts[classNames[cls]] = current_timestamp_object_counts.get(classNames[cls], 0) + 1
+
+                # If the detected object is a person, increment the persons_count
+                if classNames[cls] == "person":
+                    persons_count += 1
 
                 # Draw bounding box on the frame
                 cv2.rectangle(img, (x1, y1), (x2, y2), (255, 0, 255), 3)
@@ -82,10 +93,18 @@ while True:
 
                 cv2.putText(img, classNames[cls], org, font, fontScale, color, thickness)
 
-        print(f"Timestamp: {timestamp:.2f} seconds")
+        print(f"Timestamp: {timestamp:.2f} seconds, Persons Count: {persons_count}")
+
+        # Update max persons frame information if needed
+        if persons_count > max_persons_count:
+            max_persons_count = persons_count
+            max_persons_frame = img.copy()
+
+        # Display persons count on the frame
+        cv2.putText(img, "", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
         # Append the object counts for the current timestamp to the list
-        timestamp_object_counts.append({"timestamp": timestamp, "object_counts": current_timestamp_object_counts.copy()})
+        timestamp_object_counts.append({"timestamp": timestamp, "object_counts": current_timestamp_object_counts.copy(), "persons_count": persons_count})
 
         cv2.imshow('Video Playback', img)
 
@@ -95,6 +114,15 @@ while True:
 # Save object counts for each timestamp to a JSON file
 with open('timestamp_object_counts.json', 'w') as json_file:
     json.dump(timestamp_object_counts, json_file, indent=4)
+
+# Save the frame with max persons
+if max_persons_frame is not None:
+    cv2.imwrite('frame_with_max_persons.jpg', max_persons_frame)
+
+# Display the frame with max persons and count
+cv2.putText(max_persons_frame, f"Max Persons Count: {max_persons_count}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+cv2.imshow('Frame with Max Persons', max_persons_frame)
+cv2.waitKey(0)
 
 cap.release()
 cv2.destroyAllWindows()

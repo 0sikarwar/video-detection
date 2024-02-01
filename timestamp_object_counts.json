@@ -1,0 +1,5708 @@
+[
+    {
+        "timestamp": 0.0,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.03333333333333333,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.06666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.1,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.13333333333333333,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 20,
+            "cup": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.16666666666666669,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.2,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.23333333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.26666666666666666,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.30000000000000004,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.33333333333333337,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.3666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 8,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.4,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.43333333333333335,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.4666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.5,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 9,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.5333333333333333,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 8,
+            "chair": 14,
+            "cake": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.5666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.6000000000000001,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.6333333333333334,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 14,
+            "bench": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.6666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.7000000000000001,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.7333333333333334,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.7666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.8,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.8333333333333334,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.8666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.9,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.9333333333333333,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 0.9666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.0,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.0333333333333334,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 4,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.0666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 4,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.1,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 4,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.1333333333333333,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.1666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.2000000000000002,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.2333333333333334,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.2666666666666668,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.3,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.3333333333333335,
+        "object_counts": {
+            "person": 3,
+            "diningtable": 6,
+            "chair": 11
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 1.3666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.4000000000000001,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.4333333333333333,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.4666666666666668,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.5,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 10
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.5333333333333334,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.5666666666666669,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 10
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.6,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.6333333333333335,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 10
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.6666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.7000000000000002,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.7333333333333334,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.7666666666666668,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.8,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.8333333333333335,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.8666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.9000000000000001,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.9333333333333333,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 1.9666666666666668,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.0333333333333337,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.066666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 10
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.1,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 4,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.1333333333333333,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.166666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.2,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 5,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.2333333333333334,
+        "object_counts": {
+            "person": 2,
+            "chair": 13,
+            "diningtable": 6
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.2666666666666666,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 8,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.3000000000000003,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.3333333333333335,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.3666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.4000000000000004,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.4333333333333336,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 11
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.466666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.5,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.5333333333333337,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.566666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.6,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 16,
+            "tvmonitor": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.6333333333333333,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15,
+            "tvmonitor": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.666666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 15,
+            "toilet": 1,
+            "tvmonitor": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.7,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.7333333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.766666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.8000000000000003,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 14,
+            "cup": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.8333333333333335,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.8666666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.9000000000000004,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.9333333333333336,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 14,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 2.966666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.0,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.0333333333333337,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.066666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.1,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.1333333333333337,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 13,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.166666666666667,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.2,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.2333333333333334,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 6,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.266666666666667,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 2,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.3000000000000003,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.3333333333333335,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.3666666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.4000000000000004,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.4333333333333336,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.466666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.5000000000000004,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 12
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.5333333333333337,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 12,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.566666666666667,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 2,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.6,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 2,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.6333333333333337,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 2,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.666666666666667,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.7,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 2,
+            "chair": 14,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.7333333333333334,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 2,
+            "chair": 14,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.766666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 14,
+            "toilet": 1,
+            "cup": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.8000000000000003,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 14,
+            "cup": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.8333333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 14,
+            "cup": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.8666666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.9000000000000004,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.9333333333333336,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 3.966666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.0,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.033333333333333,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 14,
+            "skateboard": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.066666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.1000000000000005,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.133333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.166666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.2,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.233333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.266666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 15
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.300000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 15
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.333333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.366666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 15
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.4,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.433333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.466666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 14,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.5,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 14
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.533333333333333,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.566666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.6000000000000005,
+        "object_counts": {
+            "diningtable": 11,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 4.633333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.666666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.7,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.733333333333333,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.766666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 18,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.800000000000001,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 19,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.833333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.866666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.9,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.933333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 19
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 4.966666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 19
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.0,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 19
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.033333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.066666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.1000000000000005,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.133333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.166666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.2,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.233333333333333,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.266666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.300000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.333333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.366666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.4,
+        "object_counts": {
+            "chair": 17,
+            "diningtable": 7,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.433333333333334,
+        "object_counts": {
+            "chair": 18,
+            "diningtable": 7,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.466666666666667,
+        "object_counts": {
+            "chair": 16,
+            "diningtable": 7,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.5,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.533333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 5.566666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 5.6000000000000005,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.633333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.666666666666667,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 2,
+            "chair": 13,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.7,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.733333333333333,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.766666666666667,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 16,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 5.800000000000001,
+        "object_counts": {
+            "chair": 14,
+            "diningtable": 7,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.833333333333334,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 14,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.866666666666667,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 18,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.9,
+        "object_counts": {
+            "chair": 16,
+            "diningtable": 6,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.933333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 5.966666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.0,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.033333333333334,
+        "object_counts": {
+            "chair": 16,
+            "diningtable": 8,
+            "person": 2,
+            "pottedplant": 1,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.066666666666667,
+        "object_counts": {
+            "chair": 16,
+            "diningtable": 8,
+            "person": 3,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.1000000000000005,
+        "object_counts": {
+            "chair": 15,
+            "diningtable": 8,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.133333333333334,
+        "object_counts": {
+            "chair": 15,
+            "diningtable": 7,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.166666666666667,
+        "object_counts": {
+            "chair": 16,
+            "diningtable": 7,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.2,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.233333333333333,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.2666666666666675,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.300000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.333333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.366666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.4,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.433333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.466666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.5,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.533333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.566666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.6000000000000005,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.633333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 3,
+            "pottedplant": 1,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.666666666666667,
+        "object_counts": {
+            "chair": 14,
+            "diningtable": 10,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.7,
+        "object_counts": {
+            "chair": 14,
+            "diningtable": 11,
+            "person": 2,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.733333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.7666666666666675,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.800000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.833333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 6.866666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.9,
+        "object_counts": {
+            "diningtable": 11,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.933333333333334,
+        "object_counts": {
+            "diningtable": 11,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 6.966666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 13,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 7.000000000000001,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 13,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.033333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.066666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.1000000000000005,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 13,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.133333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.166666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.2,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.233333333333333,
+        "object_counts": {
+            "diningtable": 11,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 7.2666666666666675,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 7.300000000000001,
+        "object_counts": {
+            "diningtable": 11,
+            "chair": 17,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 7.333333333333334,
+        "object_counts": {
+            "diningtable": 11,
+            "chair": 19,
+            "person": 4
+        },
+        "persons_count": 4
+    },
+    {
+        "timestamp": 7.366666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 19,
+            "person": 4
+        },
+        "persons_count": 4
+    },
+    {
+        "timestamp": 7.4,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.433333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.466666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.500000000000001,
+        "object_counts": {
+            "diningtable": 11,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.533333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 16,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.566666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.6000000000000005,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.633333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 7.666666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.7,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.733333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.7666666666666675,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.800000000000001,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 7.833333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.866666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 7.9,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 7.933333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 7.966666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.0,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.033333333333333,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.066666666666666,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 18,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.1,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 19,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.133333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.166666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.200000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.233333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.266666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.3,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 8.333333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 8.366666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.4,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.433333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.466666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.5,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.533333333333333,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.566666666666666,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.600000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.633333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.666666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.700000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 18,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.733333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.766666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.8,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.833333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.866666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.9,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.933333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 8.966666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.0,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.033333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.066666666666666,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.100000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.133333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.166666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.200000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.233333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.266666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.3,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.333333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.366666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.4,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.433333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.466666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.5,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 18,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.533333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.566666666666666,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.600000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.633333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 18,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 9.666666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 18,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 9.700000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 18,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.733333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.766666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 9.8,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 9.833333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.866666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.9,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 9.933333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 9.966666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.0,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.033333333333333,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 15,
+            "handbag": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 10.066666666666666,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 3,
+            "chair": 16,
+            "pottedplant": 1,
+            "handbag": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.100000000000001,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 16,
+            "person": 3,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.133333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.166666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 3,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.200000000000001,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 17,
+            "person": 4,
+            "pottedplant": 1
+        },
+        "persons_count": 4
+    },
+    {
+        "timestamp": 10.233333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 16,
+            "person": 3,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.266666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 19,
+            "person": 4,
+            "pottedplant": 1
+        },
+        "persons_count": 4
+    },
+    {
+        "timestamp": 10.3,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 3,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.333333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 3,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.366666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 3,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.4,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 17,
+            "person": 4
+        },
+        "persons_count": 4
+    },
+    {
+        "timestamp": 10.433333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.466666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.5,
+        "object_counts": {
+            "person": 3,
+            "diningtable": 10,
+            "chair": 18
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.533333333333333,
+        "object_counts": {
+            "person": 3,
+            "diningtable": 10,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.566666666666668,
+        "object_counts": {
+            "person": 3,
+            "diningtable": 8,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.600000000000001,
+        "object_counts": {
+            "person": 3,
+            "diningtable": 7,
+            "chair": 17,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.633333333333335,
+        "object_counts": {
+            "person": 2,
+            "diningtable": 7,
+            "chair": 16,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 10.666666666666668,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.700000000000001,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 15
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.733333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 15
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.766666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 14,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.8,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 14
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.833333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 14,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.866666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 15
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.9,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.933333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 16,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 10.966666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 3,
+            "tvmonitor": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.0,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 16,
+            "tvmonitor": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.033333333333333,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.066666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 17,
+            "tvmonitor": 1,
+            "cup": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.100000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 17,
+            "tvmonitor": 1,
+            "cup": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.133333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 16,
+            "cup": 1,
+            "tvmonitor": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.166666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.200000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 15
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.233333333333334,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 3,
+            "chair": 15,
+            "tvmonitor": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.266666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 15,
+            "tvmonitor": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.3,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 16,
+            "tvmonitor": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.333333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 16,
+            "tvmonitor": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 11.366666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 15,
+            "tvmonitor": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.4,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 11.433333333333334,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 18,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 11.466666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 19
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.5,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 19,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.533333333333333,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 18,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.566666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 11.600000000000001,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 11.633333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17,
+            "tvmonitor": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 11.666666666666668,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 11.700000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17,
+            "toilet": 1,
+            "tvmonitor": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 11.733333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 1,
+            "chair": 17
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 11.766666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 16
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 11.8,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 16,
+            "cake": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 11.833333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 18,
+            "cake": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 11.866666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 18,
+            "cake": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 11.9,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 18,
+            "person": 1,
+            "cake": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 11.933333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 18
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 11.966666666666667,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 1,
+            "chair": 18
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.0,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 1,
+            "chair": 16
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.033333333333335,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 16
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.066666666666668,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 19
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.100000000000001,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 20
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.133333333333335,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 19
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.166666666666668,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 19
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.200000000000001,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 19,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.233333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 17
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.266666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 16
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.3,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 16
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.333333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 16
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.366666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 19
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.4,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 18,
+            "person": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.433333333333334,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 1,
+            "chair": 18
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.466666666666667,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 17,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.5,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 20,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.533333333333335,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 20,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.566666666666668,
+        "object_counts": {
+            "diningtable": 6,
+            "chair": 20,
+            "person": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.600000000000001,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 1,
+            "chair": 20,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.633333333333335,
+        "object_counts": {
+            "diningtable": 5,
+            "person": 1,
+            "chair": 20,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.666666666666668,
+        "object_counts": {
+            "diningtable": 6,
+            "person": 1,
+            "chair": 20
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.700000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 20,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.733333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 21
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.766666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 20,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.8,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 19
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.833333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 20
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.866666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 20,
+            "toilet": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.9,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 19
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.933333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 20
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 12.966666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 20
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.0,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 21,
+            "toilet": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.033333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 1,
+            "chair": 21,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.066666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 1,
+            "chair": 18,
+            "toilet": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.100000000000001,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 17,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.133333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 21,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.166666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 19,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.200000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 20,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.233333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 20,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.266666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 20,
+            "person": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.3,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 1,
+            "chair": 20,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.333333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 19,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.366666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 1,
+            "chair": 20,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.4,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 19,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.433333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 1,
+            "chair": 17,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.466666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 1,
+            "chair": 17,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.5,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 1,
+            "chair": 18,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 13.533333333333335,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 3,
+            "chair": 21
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 13.566666666666668,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 3,
+            "chair": 20
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 13.600000000000001,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 3,
+            "chair": 18
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 13.633333333333335,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 13.666666666666668,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 13.700000000000001,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 13.733333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 13.766666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15,
+            "pottedplant": 1,
+            "tvmonitor": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 13.8,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 3,
+            "chair": 15,
+            "tvmonitor": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 13.833333333333334,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 15,
+            "tvmonitor": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 13.866666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 13.9,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 13.933333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 13.966666666666667,
+        "object_counts": {
+            "diningtable": 11,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.000000000000002,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.033333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.066666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.100000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.133333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.166666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.200000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.233333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.266666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.3,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.333333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.366666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.4,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.433333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.466666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.500000000000002,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 13
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.533333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.566666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 14
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.600000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.633333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.666666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 14,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.700000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 14,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.733333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 14,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.766666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.8,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 15,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.833333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.866666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 15,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.9,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 15,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.933333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 14.966666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.000000000000002,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.033333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.066666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.100000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.133333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.166666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 15,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.200000000000001,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.233333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.266666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.3,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 17,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.333333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.366666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.4,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.433333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.466666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.500000000000002,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.533333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.566666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.600000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.633333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.666666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.700000000000001,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 15.733333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 15.766666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 15.8,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 15.833333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 15.866666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 15.9,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 15.933333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 15.966666666666669,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 18
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.0,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 19
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.033333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 3,
+            "chair": 17
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.066666666666666,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.1,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.133333333333333,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.166666666666668,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.2,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 19
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.233333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.26666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.3,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.333333333333336,
+        "object_counts": {
+            "diningtable": 7,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.366666666666667,
+        "object_counts": {
+            "diningtable": 7,
+            "chair": 18,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.400000000000002,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.433333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 18,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.46666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 18,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 16.5,
+        "object_counts": {
+            "diningtable": 11,
+            "chair": 18,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.533333333333335,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 17,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.566666666666666,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 20,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.6,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.633333333333333,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 17,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.666666666666668,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 18,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.700000000000003,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 17,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.733333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.76666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 4,
+            "toilet": 1
+        },
+        "persons_count": 4
+    },
+    {
+        "timestamp": 16.8,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 14,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.833333333333336,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.866666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.900000000000002,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 16.933333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 16.96666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.0,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 18,
+            "person": 2,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 17.033333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 17.066666666666666,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 17,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.1,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.133333333333333,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 17,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.166666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 18,
+            "person": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.200000000000003,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 18,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.233333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.26666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.3,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 17.333333333333336,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 17.366666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 14,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.400000000000002,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 14,
+            "person": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.433333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 1,
+            "toilet": 1,
+            "cup": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.46666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 1,
+            "toilet": 1,
+            "pottedplant": 1,
+            "cup": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.5,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 1,
+            "toilet": 1,
+            "pottedplant": 1,
+            "cup": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.533333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 1,
+            "toilet": 1,
+            "pottedplant": 1,
+            "cup": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.566666666666666,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 1,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.6,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 1,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.633333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 1,
+            "toilet": 1,
+            "pottedplant": 1,
+            "cup": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.666666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1,
+            "cup": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 17.700000000000003,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1,
+            "cup": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 17.733333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 1,
+            "toilet": 1,
+            "cup": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.76666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 17.8,
+        "object_counts": {
+            "chair": 15,
+            "diningtable": 9,
+            "person": 3,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 17.833333333333336,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 17.866666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 16,
+            "person": 1,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.900000000000002,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 1,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.933333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 1,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 17.96666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.0,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 3,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.033333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.066666666666666,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.1,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.133333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.166666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.200000000000003,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.233333333333334,
+        "object_counts": {
+            "chair": 13,
+            "diningtable": 9,
+            "person": 2,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.26666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1,
+            "pottedplant": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.3,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.333333333333336,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.366666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.400000000000002,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.433333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.46666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.5,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.533333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 13,
+            "person": 3,
+            "toilet": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.566666666666666,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 1,
+            "toilet": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 18.6,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 1,
+            "toilet": 1
+        },
+        "persons_count": 1
+    },
+    {
+        "timestamp": 18.633333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 2,
+            "toilet": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.666666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.700000000000003,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.733333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.76666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 3,
+            "chair": 16
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 18.8,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.833333333333336,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.866666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.900000000000002,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.933333333333334,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 15
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 18.96666666666667,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 3,
+            "chair": 15
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 19.0,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 3,
+            "chair": 15
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 19.033333333333335,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 3
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 19.066666666666666,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 3,
+            "cup": 1
+        },
+        "persons_count": 3
+    },
+    {
+        "timestamp": 19.1,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 16,
+            "cup": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.133333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.166666666666668,
+        "object_counts": {
+            "diningtable": 10,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.200000000000003,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.233333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.26666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.3,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.333333333333336,
+        "object_counts": {
+            "chair": 14,
+            "diningtable": 8,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.366666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.400000000000002,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.433333333333334,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 14,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.46666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.5,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.533333333333335,
+        "object_counts": {
+            "chair": 15,
+            "diningtable": 8,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.566666666666666,
+        "object_counts": {
+            "chair": 16,
+            "diningtable": 8,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.6,
+        "object_counts": {
+            "chair": 16,
+            "diningtable": 9,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.633333333333333,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 15,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.666666666666668,
+        "object_counts": {
+            "diningtable": 9,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.700000000000003,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.733333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.76666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.8,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.833333333333336,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.866666666666667,
+        "object_counts": {
+            "diningtable": 9,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.900000000000002,
+        "object_counts": {
+            "diningtable": 10,
+            "person": 2,
+            "chair": 18
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.933333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 19.96666666666667,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 20.0,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 16
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 20.033333333333335,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 20.066666666666666,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 16,
+            "person": 2
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 20.1,
+        "object_counts": {
+            "diningtable": 8,
+            "person": 2,
+            "chair": 17
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 20.133333333333333,
+        "object_counts": {
+            "chair": 16,
+            "diningtable": 9,
+            "person": 2,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 20.166666666666668,
+        "object_counts": {
+            "chair": 17,
+            "diningtable": 8,
+            "person": 2,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 20.200000000000003,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    },
+    {
+        "timestamp": 20.233333333333334,
+        "object_counts": {
+            "diningtable": 8,
+            "chair": 17,
+            "person": 2,
+            "pottedplant": 1
+        },
+        "persons_count": 2
+    }
+]

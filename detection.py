@@ -36,17 +36,16 @@ while True:
     if frame_count % frame_interval == 0:
         results = model(img, stream=True)
 
-        # Draw bounding boxes on the image
-        for r in results:
-            boxes = r.boxes
+        # Filter out chairs from the detection results
+        chair_results = [box for result in results for box in result.boxes if classNames[int(box.cls[0])] == "chair"]
 
-            for box in boxes:
-                x1, y1, x2, y2 = box.xyxy[0]
-                x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
-                cls = int(box.cls[0])
-                color = (0, 255, 0)  # Green color for bounding boxes
-                img = cv2.rectangle(img, (x1, y1), (x2, y2), color, 2)
-                cv2.putText(img, classNames[cls], (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
+        # Draw bounding boxes only for empty chairs
+        for box in chair_results:
+            x1, y1, x2, y2 = box.xyxy[0]
+            x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
+            color = (0, 255, 0)  # Green color for bounding boxes
+            img = cv2.rectangle(img, (x1, y1), (x2, y2), color, 2)
+            cv2.putText(img, "Empty Chair", (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
         # Display the image using cv2.imshow
         cv2.imshow("Detection Output", img)

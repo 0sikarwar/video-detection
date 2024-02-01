@@ -54,6 +54,7 @@
 
     eventSource.onmessage = function (event) {
       const objectCounts = JSON.parse(event.data);
+      console.log('objectCounts', objectCounts)
       totalData.push(objectCounts);
       if (prevPersonCount !== objectCounts['person']) {
         // Update donut chart data

@@ -88,7 +88,7 @@ def generate(video_path):
 @app.route('/')
 def index():
     # Start video processing in a separate thread
-    threading.Thread(target=generate, args=("./IMG_2469.MOV",)).start()
+    threading.Thread(target=generate, args=("./IMG_2469.MOV")).start()
     return render_template('video_data.html')
 
 @app.route('/screenshot')

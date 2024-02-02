@@ -1,0 +1,10 @@
+flask
+flask-socketio
+python-socketio[client]
+eventlet
+opencv-python-headless
+numpy
+torch
+torchvision
+requests>=2.23.0
+ultralytics

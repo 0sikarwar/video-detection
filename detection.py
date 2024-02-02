@@ -53,6 +53,7 @@ while True:
 
         person_boxes = []  # Store bounding boxes of detected persons
         chair_boxes = []  # Store bounding boxes of detected chairs
+        empty_chairs_positions = []  # Store bounding boxes of detected chairs
 
         for r in results:
             boxes = r.boxes
@@ -71,6 +72,10 @@ while True:
             filled = is_chair_filled(chair_box, person_boxes)
             color = (0, 0, 255) if filled else (0, 255, 0)  # Red for filled, Green for empty
             label = "Filled Chair" if filled else "Empty Chair"
+            if not filled: empty_chairs_positions.append(chair_box)
+            print("______________________________________")
+            print(empty_chairs_positions)
+            print("______________________________________")
             x1, y1, x2, y2 = chair_box
             cv2.rectangle(img, (x1, y1), (x2, y2), color, 2)
             cv2.putText(img, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)

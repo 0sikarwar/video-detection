@@ -42,6 +42,7 @@ def generate():
             results = model(img, stream=True)
             person_boxes = []
             chair_boxes = []
+            empty_chairs_positions = []
 
             for r in results:
                 boxes = r.boxes
@@ -56,6 +57,8 @@ def generate():
                         person_boxes.append([x1, y1, x2, y2])
                     elif class_name == "chair":
                         chair_boxes.append([x1, y1, x2, y2])
+                        if not is_chair_filled([x1, y1, x2, y2], person_boxes):
+                            empty_chairs_positions.append([x1, y1, x2, y2])
 
             # Determine empty chairs and total persons
             empty_chairs_count = sum(not is_chair_filled(chair_box, person_boxes) for chair_box in chair_boxes)
@@ -65,7 +68,8 @@ def generate():
                 "timestamp": timestamp,
                 "empty_chairs": empty_chairs_count,
                 "total_chairs": len(chair_boxes),
-                "total_persons": total_persons
+                "total_persons": total_persons,
+                "empty_chairs_positions": empty_chairs_positions.copy()
             }
 
             yield f"data:{json.dumps(data)}\n\n"

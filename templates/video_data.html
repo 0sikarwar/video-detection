@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Detections</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+  <style>
+    canvas {
+      width: 400px !important;
+      height: 400px !important;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Live Detections</h1>
+  <div id="objectCounts"></div>
+  <h2>Persons</h2>
+  <canvas id="presonDonutChart" width="200px" height="200px"></canvas>
+  <h2>Chairs</h2>
+  <canvas id="chairDonutChart" width="200px" height="200px"></canvas>
+
+  <script>
+    let totalData = [];
+    let prevPersonCount = 0;
+    let prevChairCount = 0
+
+    const personCtx = document.getElementById('presonDonutChart').getContext('2d');
+    const personDonutChart = new Chart(personCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Remaining Persons', 'Detected Persons'],
+        datasets: [{
+          data: [20, 0],  // Assuming total persons is 20 initially
+          backgroundColor: ['#f0f0f0', '#3498db'], // Colors for unfilled and filled portions
+        }],
+      },
+    });
+    const chairCtx = document.getElementById('chairDonutChart').getContext('2d');
+    const chairDonutChart = new Chart(chairCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Remaining Persons', 'Detected Persons'],
+        datasets: [{
+          data: [20, 0],  // Assuming total persons is 20 initially
+          backgroundColor: ['#f0f0f0', '#3498db'], // Colors for unfilled and filled portions
+        }],
+      },
+    });
+    var socket = io.connect('http://' + document.domain + ':' + location.port);
+    socket.on('update_data', function (data) {
+      console.log(data);
+      const objectCounts = JSON.parse(data);
+      if (prevPersonCount !== objectCounts.total_persons) {
+        const remainingPersons = 20 - (objectCounts.total_persons || 0);
+        personDonutChart.data.datasets[0].data = [remainingPersons, objectCounts.total_persons || 0];
+        personDonutChart.update();
+      }
+      if (prevChairCount !== objectCounts.empty_chairs) {
+        const remainingChairs = 20 - (objectCounts.empty_chairs || 0);
+        chairDonutChart.data.datasets[0].data = [remainingChairs, objectCounts.empty_chairs || 0];
+        chairDonutChart.update();
+      }
+
+      // Update object counts in HTML
+      if (prevPersonCount !== objectCounts.total_persons || prevChairCount !== objectCounts.empty_chairs) {
+        const objectCountsDiv = document.getElementById("objectCounts");
+        objectCountsDiv.innerHTML = "<h2>Object Counts:</h2>";
+
+        for (const [className, count] of Object.entries(objectCounts)) {
+          if (["total_persons", "empty_chairs"].includes(className)) {
+            const paragraph = document.createElement("p");
+            paragraph.innerHTML = `${className}: ${count}`;
+            objectCountsDiv.appendChild(paragraph);
+          }
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

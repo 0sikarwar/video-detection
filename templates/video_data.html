@@ -86,7 +86,6 @@
         .then(response => response.json())
         .then(objectCounts => {
           if(!objectCounts) return
-          console.log('objectCounts', objectCounts)
           if (prevPersonCount !== objectCounts.total_persons) {
             const remainingPersons = 20 - (objectCounts.total_persons || 0);
             personDonutChart.data.datasets[0].data = [remainingPersons, objectCounts.total_persons || 0];

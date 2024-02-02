@@ -5,27 +5,10 @@ from imutils.video import VideoStream
 import cv2
 import numpy as np
 
-# Function to check if a chair is filled
-def is_chair_filled(chair_box, person_boxes, threshold=50):
-    """
-    Determines if a chair is filled based on the proximity of any person to the chair.
-    :param chair_box: Bounding box of the chair (x1, y1, x2, y2).
-    :param person_boxes: List of bounding boxes of detected persons.
-    :param threshold: Distance threshold to consider a chair filled.
-    :return: True if filled, False otherwise.
-    """
-    chair_center = np.array([(chair_box[0] + chair_box[2]) / 2, (chair_box[1] + chair_box[3]) / 2])
-    for person_box in person_boxes:
-        person_center = np.array([(person_box[0] + person_box[2]) / 2, (person_box[1] + person_box[3]) / 2])
-        distance = np.linalg.norm(chair_center - person_center)
-        if distance < threshold:
-            return True
-    return False
-
-# Model
+# Initialize YOLO model
 model = YOLO("yolo-Weights/yolov8n.pt")
 
-# Object classes
+# Object classes (ensure this matches your model's classes)
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
               "dog", "horse", "sheep", "cow", "elephant", "bear", "zebra", "giraffe", "backpack", "umbrella",
@@ -50,35 +33,21 @@ while True:
 
     if frame_count % frame_interval == 0:
         results = model(img, stream=True)
-
-        person_boxes = []  # Store bounding boxes of detected persons
-        chair_boxes = []  # Store bounding boxes of detected chairs
-        empty_chairs_positions = []  # Store bounding boxes of detected chairs
-
+        
         for r in results:
             boxes = r.boxes
             for box in boxes:
                 x1, y1, x2, y2 = box.xyxy[0]
                 x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)  # Convert to int values
-                
-                cls = int(box.cls[0])
-                if classNames[cls] == "person":
-                    person_boxes.append([x1, y1, x2, y2])
-                elif classNames[cls] == "chair":
-                    chair_boxes.append([x1, y1, x2, y2])
 
-        # Check each chair if it is filled or not, and draw boxes accordingly
-        for chair_box in chair_boxes:
-            filled = is_chair_filled(chair_box, person_boxes)
-            color = (0, 0, 255) if filled else (0, 255, 0)  # Red for filled, Green for empty
-            label = "Filled Chair" if filled else "Empty Chair"
-            if not filled: empty_chairs_positions.append(chair_box)
-            print("______________________________________")
-            print(empty_chairs_positions)
-            print("______________________________________")
-            x1, y1, x2, y2 = chair_box
-            cv2.rectangle(img, (x1, y1), (x2, y2), color, 2)
-            cv2.putText(img, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
+                cls = int(box.cls[0])
+                label = classNames[cls]  # Get class name using class index
+                confidence = f"{box.conf[0]:.2f}"  # Confidence of detection
+
+                # Draw bounding box and label
+                color = (0, 255, 0) if label != "chair" else (255, 0, 0)  # Different color for chairs
+                cv2.rectangle(img, (x1, y1), (x2, y2), color, 2)
+                cv2.putText(img, f"{label} {confidence}", (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
         # Display the image
         cv2.imshow("Detection Output", img)

@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_file
 from flask_socketio import SocketIO
 from ultralytics import YOLO
 import cv2
@@ -6,8 +6,9 @@ import numpy as np
 import threading
 import time
 import json
+import io
 
-
+current_frame = None
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app)
@@ -26,6 +27,7 @@ def is_chair_filled(chair_box, person_boxes, threshold=50):
 model = YOLO("yolo-Weights/yolov8n.pt")  # Adjust path to your YOLO model weights
 
 def generate(video_path):
+    global current_frame
     try:
         cap = cv2.VideoCapture(video_path)
         frame_count = 0
@@ -58,8 +60,11 @@ def generate(video_path):
                             person_boxes.append([x1, y1, x2, y2])
                         elif class_name == "chair":
                             chair_boxes.append([x1, y1, x2, y2])
-                            if not is_chair_filled([x1, y1, x2, y2], person_boxes):
+                            is_filled = is_chair_filled([x1, y1, x2, y2], person_boxes)
+                            if not is_filled:
                                 empty_chairs_positions.append([x1, y1, x2, y2])
+                            color = (0, 0, 255) if is_filled else (255, 0, 0)  # Red if filled, Blue if empty
+                            cv2.rectangle(img, (x1, y1), (x2, y2), color, 2)
 
                 # Determine empty chairs and total persons
                 empty_chairs_count = sum(not is_chair_filled(chair_box, person_boxes) for chair_box in chair_boxes)
@@ -73,7 +78,7 @@ def generate(video_path):
                     "empty_chairs_positions": empty_chairs_positions.copy()
                 }
                 print(f"timestamp: {timestamp}")
-
+                current_frame = img.copy()
                 socketio.emit('update_data', json.dumps(data))  # Ensure data is sent as a JSON string
         cap.release()
     except Exception as e:
@@ -83,8 +88,22 @@ def generate(video_path):
 @app.route('/')
 def index():
     # Start video processing in a separate thread
-    threading.Thread(target=generate, args=("./IMG_2468.MOV",)).start()
+    threading.Thread(target=generate, args=("./IMG_2469.MOV",)).start()
     return render_template('video_data.html')
+
+@app.route('/screenshot')
+def screenshot():
+    global current_frame
+    if current_frame is not None:
+        # Convert the current frame to JPEG
+        success, encoded_image = cv2.imencode('.jpg', current_frame)
+        if not success:
+            return "Failed to encode image", 500
+        # Convert to bytes and send as a response
+        byte_io = io.BytesIO(encoded_image.tobytes())
+        return send_file(byte_io, mimetype='image/jpeg')
+    else:
+        return "No frame available", 404
 
 if __name__ == '__main__':
     socketio.run(app, host='0.0.0.0', port=5003, debug=True)

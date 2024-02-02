@@ -9,6 +9,7 @@ import json
 import io
 
 current_frame = None
+latest_data = None
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app)
@@ -27,7 +28,7 @@ def is_chair_filled(chair_box, person_boxes, threshold=50):
 model = YOLO("yolo-Weights/yolov8n.pt")  # Adjust path to your YOLO model weights
 
 def generate(video_path):
-    global current_frame
+    global current_frame, latest_data
     try:
         cap = cv2.VideoCapture(video_path)
         frame_count = 0
@@ -77,7 +78,8 @@ def generate(video_path):
                     "total_persons": total_persons,
                     "empty_chairs_positions": empty_chairs_positions.copy()
                 }
-                print(f"timestamp: {timestamp}")
+                print(data)
+                latest_data = data  # Update the latest_data with the current detection data
                 current_frame = img.copy()
                 socketio.emit('update_data', json.dumps(data))  # Ensure data is sent as a JSON string
         cap.release()
@@ -88,7 +90,7 @@ def generate(video_path):
 @app.route('/')
 def index():
     # Start video processing in a separate thread
-    threading.Thread(target=generate, args=("./IMG_2469.MOV")).start()
+    threading.Thread(target=generate, args=("./IMG_2469.MOV",)).start()
     return render_template('video_data.html')
 
 @app.route('/screenshot')
@@ -104,6 +106,13 @@ def screenshot():
         return send_file(byte_io, mimetype='image/jpeg')
     else:
         return "No frame available", 404
+
+@app.route('/poll')
+def poll_data():
+    global latest_data
+    print(latest_data)
+    return json.dumps(latest_data), 200, {'ContentType':'application/json'}
+
 
 if __name__ == '__main__':
     socketio.run(app, host='0.0.0.0', port=5003, debug=True)

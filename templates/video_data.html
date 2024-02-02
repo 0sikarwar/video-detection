@@ -28,6 +28,7 @@
     let totalData = [];
     let prevPersonCount = 0;
     let prevChairCount = 0
+    let socketConnected = false
 
     const personCtx = document.getElementById('presonDonutChart').getContext('2d');
     const personDonutChart = new Chart(personCtx, {
@@ -53,7 +54,7 @@
     });
     var socket = io.connect('http://' + document.domain + ':' + location.port);
     socket.on('update_data', function (data) {
-      console.log(data);
+      socketConnected = true
       const objectCounts = JSON.parse(data);
       if (prevPersonCount !== objectCounts.total_persons) {
         const remainingPersons = 20 - (objectCounts.total_persons || 0);
@@ -80,6 +81,40 @@
         }
       }
     });
+    function fetchData() {
+      fetch('/poll')
+        .then(response => response.json())
+        .then(objectCounts => {
+          if(!objectCounts) return
+          console.log('objectCounts', objectCounts)
+          if (prevPersonCount !== objectCounts.total_persons) {
+            const remainingPersons = 20 - (objectCounts.total_persons || 0);
+            personDonutChart.data.datasets[0].data = [remainingPersons, objectCounts.total_persons || 0];
+            personDonutChart.update();
+          }
+          if (prevChairCount !== objectCounts.empty_chairs) {
+            const remainingChairs = 20 - (objectCounts.empty_chairs || 0);
+            chairDonutChart.data.datasets[0].data = [remainingChairs, objectCounts.empty_chairs || 0];
+            chairDonutChart.update();
+          }
+
+          // Update object counts in HTML
+          if (prevPersonCount !== objectCounts.total_persons || prevChairCount !== objectCounts.empty_chairs) {
+            const objectCountsDiv = document.getElementById("objectCounts");
+            objectCountsDiv.innerHTML = "<h2>Object Counts:</h2>";
+
+            for (const [className, count] of Object.entries(objectCounts)) {
+              if (["total_persons", "empty_chairs"].includes(className)) {
+                const paragraph = document.createElement("p");
+                paragraph.innerHTML = `${className}: ${count}`;
+                objectCountsDiv.appendChild(paragraph);
+              }
+            }
+          }
+        })
+        .catch(console.error);
+    }
+    if (!socketConnected) setInterval(fetchData, 2000)
   </script>
 </body>
 
